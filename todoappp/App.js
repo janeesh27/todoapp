@@ -1,7 +1,17 @@
 import React from 'react';
 
 import {SafeAreaView, StyleSheet} from 'react-native';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 const COLORS = {primary: '#000000', white: '#fff'};
+
+
+const App = () => {
+  return (
+    <SafeAreaView style={{flex:1,backgroundColor:COLORS.white}}></SafeAreaView>
+  )
+}
+
+export default App
 
 // import {
 //   Colors,
